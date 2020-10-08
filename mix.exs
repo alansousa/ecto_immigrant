@@ -23,7 +23,7 @@ defmodule EctoImmigrant.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 2.1"},
+      {:ecto, "~> 2.2"},
       {:ex_doc, "~> 0.18.0", only: :dev, runtime: false},
       {:credo, "~> 0.9.1", only: [:dev, :test], runtime: false},
       {:mix_test_watch, "~> 0.6", only: :dev, runtime: false}
